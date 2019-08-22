@@ -1,0 +1,32 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  color: #5B5B5B;
+}
+
+.centered_header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
